@@ -1,0 +1,1 @@
+export const checkAuth = () => JSON.parse(window.sessionStorage.getItem('loggedIn')) === true
